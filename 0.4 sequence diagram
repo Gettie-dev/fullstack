@@ -1,0 +1,8 @@
+flowchart TD
+A["User writes a new note"] --> B["Clicks Save button"]
+B --> C["Browser sends POST request with note data"]
+C --> D["Server saves note and responds with redirect"]
+D --> E["Browser reloads notes page"]
+E --> F["Browser requests updated data.json"]
+F --> G["Server sends updated notes list"]
+G --> H["Browser displays new note on screen"]
