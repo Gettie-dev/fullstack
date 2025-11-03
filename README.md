@@ -1,2 +1,2 @@
 # fullstack
-My journey in full stack development
+My educational journey in full stack development
